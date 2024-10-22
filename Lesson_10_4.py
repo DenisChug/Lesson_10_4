@@ -1,7 +1,7 @@
-from time import sleep
-from random import randint
 from threading import Thread
 from queue import Queue
+from time import sleep
+from random import randint
 
 class Table:
     def __init__(self, number):
